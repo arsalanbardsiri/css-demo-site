@@ -1,0 +1,101 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color:var(--first);
+    text-shadow: 2px 2px 4px var(--fifth);
+
+}
+
+a:hover {
+    /* CSS styles for the <a> element on hover */
+    text-decoration: var(--first) solid line-through;
+}
+
+body {
+    background: var(--forth);
+}
+
+header {
+    background: var(--second);
+    position: fixed;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10%;
+    width: 99%;
+    box-shadow: 4px 4px 8px currentColor;
+    z-index: 99;
+    margin: auto;
+}
+img{
+    background-color: var(--third);
+    display: block;
+    margin: auto;
+    padding: 2%;
+    border: outset var(--first);
+    border-radius: 10%;
+    box-shadow: 4px 4px 8px currentColor;
+    height: 70%;
+    width: 70%;
+}
+
+
+h2 {
+    text-align: center;
+    padding-top: 7%;
+}
+
+main {
+    position: relative;
+    margin: auto;
+    padding-top: 5%;
+}
+
+ul {
+    text-align: right;
+}
+footer{
+    background-color: var(--third);
+    box-shadow: 4px 4px 8px currentColor;
+    height: 30px;
+    width: auto;
+    font-size: larger;
+    text-align: center;
+    
+
+}
+#item-1,
+#item-2,
+#item-3 {
+    display: inline-flex;
+    font-size: xx-large;
+}
+
+#contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    background: var(--second);
+    border-radius: 10%;
+    box-shadow: 4px 4px 8px currentColor;
+    font-size: x-large;
+}
+
+#txt{
+    box-shadow: 4px 4px 8px currentColor;
+    margin: auto;
+    padding: 3%;
+    
+}
+#intro{
+    margin: auto;
+}
+
+:root{
+    --first:#674d3c;
+    --second:#a2836e;
+    --third:#d9ad7c;
+    --forth:#fff2df;
+    --fifth:#474545b7;
+}
